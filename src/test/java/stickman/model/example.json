@@ -1,0 +1,12 @@
+{
+  "_comment": "This is a sample JSON file. Anything starting with an underscore (like this _comment) should be ignored. Please always use comment to explain your JSON clearly to your marker",
+  "stickmanSize": "normal",
+  "_stickmanSizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+  "stickmanPos": {
+    "x": 20.0
+  },
+  
+  "_stickmanPosComment": "Stickman start at the x position indicated, with their y position being on your 'floor'. This must be a positive double.",
+  "cloudVelocity": 3.2,
+  "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature."
+}

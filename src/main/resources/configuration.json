@@ -1,0 +1,58 @@
+[
+  { "_levelStructure" : "to express a level",
+    "levelStructure":
+    {
+
+      "_comment": "This is a level 1",
+      "_levelSize" : "it is used to express the height and width of a level",
+      "levelSize" : {
+        "height" : 1000.0,
+        "width" : 1200.0
+      },
+      "stickmanSize": "normal",
+      "_stickmanSizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+      "stickmanPos": {
+        "x": 20.0,
+        "y": 250.0
+      },
+      "_enermies": "to express enermies",
+      "enermies": [{"x": 130,"y":234, "type":1},{"x": 250,"y":250, "type": 2}],
+      "_mushroom" : "to show the mushroom",
+      "mushroom": [{"x": 130,"y":209},{"x": 300,"y":284}],
+      "-foot_tile" : "show the position of foottile",
+
+      "foot_tile" : [{"x": 130.0, "y": 225.0},{"x": 146.0, "y": 225.0},{"x": 162.0, "y": 225.0},{"x": 160,"y": 150},{"x": 180,"y": 50}],
+      "_flag" : "show the position of flag",
+      "flag" : {"x": 160.0,"y": 134},
+      "_stickmanPosComment": "Stickman start at the x position indicated, with their y position being on your 'floor'. This must be a positive double.",
+      "cloudVelocity": 3.2,
+      "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature."
+    }
+  },
+  {
+    "levelStructure": {
+
+      "_comment": "This is level 2",
+      "_levelSize" : "it is used to express the height and width of a level",
+      "levelSize" : {
+        "height" : 500.0,
+        "width" : 1000.0
+      },
+      "_mushroom" : "to show the mushroom",
+      "mushroom": [{"x": 130,"y":234}],
+      "foot_tile" : [{"x": 130.0, "y": 250.0}],
+      "stickmanSize": "large",
+      "_enermies": "to express enermies",
+      "enermies": [{"x": 130,"y":234, "type": 1}],
+      "_stickmanSizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+      "stickmanPos": {
+        "x": 20.0,
+        "y": 250.0
+      },
+      "flag" :{"x": 160.0,"y": 134},
+      "_stickmanPosComment": "Stickman start at the x position indicated, with their y position being on your 'floor'. This must be a positive double.",
+      "cloudVelocity": 3.2,
+      "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature."
+    }
+  }
+]

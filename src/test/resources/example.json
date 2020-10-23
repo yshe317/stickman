@@ -1,0 +1,44 @@
+[
+  { "_levelStructure" : "to express a level",
+    "levelStructure":
+    {
+
+      "_comment": "This is a level 1",
+      "_levelSize" : "it is used to express the height and width of a level",
+      "levelSize" : {
+        "height" : 50.0,
+        "width" : 100.0
+      },
+      "stickmanSize": "normal",
+      "_stickmanSizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+      "stickmanPos": {
+        "x": 20.0,
+        "y": 10.0
+      },
+
+      "_stickmanPosComment": "Stickman start at the x position indicated, with their y position being on your 'floor'. This must be a positive double.",
+      "cloudVelocity": 3.2,
+      "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature."
+    }
+  },
+  {"levelStructure": {
+
+      "_comment": "This is level 2",
+      "_levelSize" : "it is used to express the height and width of a level",
+      "levelSize" : {
+        "height" : 50.0,
+        "width" : 100.0
+      },
+      "stickmanSize": "normal",
+      "_stickmanSizeComment": "Your main character can be normal or large. What pixel dimensions these match can be up to you.",
+      "stickmanPos": {
+        "x": 20.0,
+        "y": 10.0
+      },
+
+      "_stickmanPosComment": "Stickman start at the x position indicated, with their y position being on your 'floor'. This must be a positive double.",
+      "cloudVelocity": 3.2,
+      "_cloudVelocityComment": "Clouds should move the given number of pixels per second. This must be a positive double. This is not a required feature in assignment 2 but we leave it here as a sample only for students who are interested in this feature."
+    }
+  }
+]
